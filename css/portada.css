@@ -1,0 +1,210 @@
+* {
+
+  margin: 0;
+  padding: 0;
+}
+
+/* cabecera */
+
+
+header {
+  width: 100%;
+  height:106px;
+  position:fixed;
+  background-color: #E5E3DC;
+    }
+
+nav {
+
+list-style: none;
+font-family:monospace;
+font-size: 20px;
+padding-bottom: 10px;
+padding-top: 20px;
+}
+
+style {
+  opacity: 0.5;
+}
+.menu {
+
+  padding-left: 300px;
+}
+.menu li {
+  list-style: none;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 5px;
+
+
+}
+
+.logo {
+  float: left;
+  display: inline-block;
+  padding-left: 30px;
+  list-style: none;
+  padding-top: 0px;
+}
+
+.linea {
+  margin: 0;
+  background-color: #6B2C02;
+}
+.linea2 {
+  margin: 0;
+  background-color: #E59866;
+}
+
+.btn-maps {
+background-color:#E59866;
+}
+
+
+/* submenu */
+
+.submenu1 {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1s;
+  padding-top: 4px;
+}
+
+.submenu1 li a {
+  display: block;
+  padding: 4px;
+  text-decoration: none;
+}
+
+
+.menu li:hover .submenu1 {
+  visibility: visible;
+  opacity: 1;
+}
+
+.submenu2 {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1s;
+    padding-top: 4px;
+}
+
+.submenu2 li a {
+  display: block;
+  padding: 4px;
+  text-decoration: none;
+}
+
+.menu li:hover .submenu2 {
+  visibility: visible;
+  opacity: 1;
+}
+/* REDES SOCIALES*/
+
+.btn-mio {
+background-color: #E59866;
+
+}
+.btn-mio2 {
+  background-color: #f58b8b;
+}
+.btn-mio3 {
+  background-color: #3b5998;
+}
+
+/* viajes post*/
+
+.post-list {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 15px;
+}
+
+
+
+.content {
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-gap: 20px;
+max-width: 1000px;
+margin: auto;
+}
+
+
+.post-img-1 {
+
+width: 100%;
+height: 180px;
+background-size: cover;
+background-position: center;
+transition: .2s;
+
+}
+
+.post-img-2 {
+
+width: 100%;
+height: 180px;
+background-size: cover;
+background-position: center;
+transition: .2s;
+
+}
+.post-img-3 {
+
+width: 100%;
+height: 180px;
+background-size: cover;
+background-position: center;
+transition: .2s;
+
+}
+
+/* viajes post*/
+
+.post-list-destacados {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 15px;
+}
+
+
+
+.content-destacados {
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-gap: 20px;
+max-width: 1000px;
+margin: auto;
+}
+
+
+.post-img-1-destacados {
+
+width: 100%;
+height: 180px;
+background-size: cover;
+background-position: center;
+transition: .2s;
+
+}
+
+
+.social > li {
+
+  float: right;
+  display: inline-block;
+  padding-left: 5px;
+  list-style: none;
+  padding-top: 3px;
+
+}
+
+
+/* footer*/
